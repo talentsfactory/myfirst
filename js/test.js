@@ -7,7 +7,7 @@ formData.forEach(function (value, key) {
 var json = JSON.stringify(object);
 
 var xhr = new XMLHttpRequest();
-xhr.open("POST", '/submit', true)
+xhr.open("POST", 'https://api.achieveme.live/api/FormFeedbacks/rsCGgQnJ2EGlUYUCNpfpKQ', true)
 xhr.setRequestHeader('Content-type', 'application/json; charset=utf-8');
 
 // Отсылаем объект в формате JSON и с Content-Type application/json
